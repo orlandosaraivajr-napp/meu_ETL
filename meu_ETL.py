@@ -5,6 +5,7 @@ import sqlite3
 from sqlite3 import OperationalError
 from datetime import datetime
 
+# Minha classe
 class MeuETL:
     def __init__(self, *args, **kwargs):  
         self.url = 'https://www.clubefii.com.br/fundo_imobiliario_lista'
